@@ -51,9 +51,9 @@ public class ConectarMy {
            resultSet = statement.executeQuery("SELECT * FROM Inscripcion order by Referencia desc limit 3");
 
            while (resultSet.next()) {
-             res+=resultSet.getString("Semes_anio") + " | " +
+             res+=resultSet.getString("Semes_anio") + "    | " +
                  resultSet.getString("Facultad") + " | " + 
-                 resultSet.getString("Anio") + " | " +
+                 resultSet.getString("Anio") + "  | " +
                  resultSet.getString("Carnet") + " \n ";
             }
          }
@@ -70,7 +70,7 @@ public class ConectarMy {
             resultSet.close();
             statement.close();
             connection.close();
-            System.out.println("Desconectado de la base de datos [ " + this.db + "]");                 
+            System.out.println("Desconectado de la base de datos [ " + this.db + "] \n");            
         }        
         catch (SQLException ex) {
             System.out.println(ex);

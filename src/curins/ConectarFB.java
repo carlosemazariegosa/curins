@@ -69,7 +69,7 @@ public class ConectarFB {
             resultSet.close();
             statement.close();
             connection.close();
-            System.out.println("Desconectado de la base de datos [ " + this.db + "]");                 
+            System.out.println("Desconectado de la base de datos [ " + this.db + "] \n");                 
         }        
         catch (SQLException ex) {
             System.out.println(ex);
