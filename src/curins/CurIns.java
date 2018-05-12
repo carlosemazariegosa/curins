@@ -9,7 +9,7 @@ import java.sql.Date;
 public class CurIns {
 
     public static void main(String[] args) {
-        Boolean icon;
+        Boolean icon, iarch;
         String logfile;
         
         ConectarFB fbc = new ConectarFB();
@@ -22,10 +22,12 @@ public class CurIns {
         System.out.println(myc.select());
         myc.desconectar();  
         
-        NombreArchivo ilog = new NombreArchivo();
+        //NombreArchivo ilog = new NombreArchivo();
+        //logfile = ilog.nombreFechaHora();
+        //System.out.println("Archivo main:  " + logfile);
         
-        logfile = ilog.nombreFechaHora();
-        System.out.println("Archivo main:  " + logfile);
+        CrearArchivo ilog = new CrearArchivo();
+        iarch = ilog.creaArchivo();
 
     }
 

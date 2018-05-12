@@ -17,7 +17,6 @@ public class NombreArchivo {
     String fnombre;
     
     public String nombreFechaHora() {
-        
         String inom = null;
         try {
             // SimpleDateFormat MiFormato = new SimpleDateFormat("dd/MM/yyyy HM:mm:ss", Locale.getDefault()); 
@@ -25,11 +24,20 @@ public class NombreArchivo {
             Date hoy = new Date();
             inom = MiFormato.format(hoy);
         } catch(Exception e){
-           
           System.out.println(e);
-          System.out.println("Fallo la conexión ...");
-          
        }
        return inom+"_Log.txt";
+    }
+    
+    public String regFechaHora() {
+        String ifh = null;
+        try {
+            SimpleDateFormat MiFormato = new SimpleDateFormat("-[yyyyMMdd-HHmmss]", Locale.getDefault()); 
+            Date fh= new Date();
+            ifh = MiFormato.format(fh);
+        } catch(Exception e){
+          System.out.println(e);
+       }
+       return ifh;
     }
 }
