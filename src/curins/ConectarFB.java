@@ -27,17 +27,18 @@ public class ConectarFB {
     private String password = "20591";
     
     public boolean conectar() {
+        Boolean iarch;
         try{
             
           Class.forName("org.firebirdsql.jdbc.FBDriver");
           connection = DriverManager.getConnection("jdbc:firebirdsql:10.1.0.15:" + db,this.user, this.password);
-          System.out.println("Conectado a la base de datos [ " + this.db + "] \n");
+          CrearArchivo ilog = new CrearArchivo();
+          iarch = ilog.creaArchivo(1,"Conexion exitosa a " + this.db);
           
        }catch(Exception e){
-           
           System.out.println(e);
-          System.out.println("Fallo la conexión ...");
-          
+          CrearArchivo ilog = new CrearArchivo();
+          iarch = ilog.creaArchivo(3,"Fallo conexión a " + this.db);
        }
        return true;
     }
@@ -45,7 +46,7 @@ public class ConectarFB {
     public String select()  {
         
         String res=" ID | CodMov | Nombre  \n ";
-     
+        Boolean iarch;
         try {
            statement = connection.createStatement();
            resultSet = statement.executeQuery("SELECT first 3 * FROM acad_tipo_mov order by codigo_mov");
@@ -55,24 +56,31 @@ public class ConectarFB {
                  resultSet.getString("Codigo_mov") + " | " + 
                  resultSet.getString("Nombre") + " \n ";
             }
+            CrearArchivo ilog = new CrearArchivo();
+            iarch = ilog.creaArchivo(1,"Consulta cursos de sistema Acad");
          }
         catch (SQLException ex) {
              System.out.println(ex);
-             System.out.println("Select ...");
+             CrearArchivo ilog = new CrearArchivo();
+             iarch = ilog.creaArchivo(3,"Fallo consulta a tabla de cursos");
          }
         return res;
     }
     
     
     public void desconectar() {
+        Boolean iarch;
         try {
             resultSet.close();
             statement.close();
             connection.close();
-            System.out.println("Desconectado de la base de datos [ " + this.db + "] \n");                 
+            CrearArchivo ilog = new CrearArchivo();
+            iarch = ilog.creaArchivo(1,"Desconexion exitosa a " + this.db);
         }        
         catch (SQLException ex) {
             System.out.println(ex);
+            CrearArchivo ilog = new CrearArchivo();
+            iarch = ilog.creaArchivo(3,"Fallo Desconexion a " + this.db);
         }
     }  
 }    

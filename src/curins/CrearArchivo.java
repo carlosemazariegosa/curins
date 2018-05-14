@@ -17,17 +17,27 @@ import java.io.IOException;
 
 public class CrearArchivo {
     
-    public Boolean creaArchivo() {
+    public Boolean creaArchivo(Integer itipo, String imensaje) {
         String logfile;
         String ifh;
+        String itipoMensaje;
+        
+        switch (itipo) {
+            case 1: itipoMensaje = "[Info.]";
+                    break;
+            case 2: itipoMensaje = "[Warn.]";
+                    break;
+            case 3: itipoMensaje = "[Error]";
+                    break;    
+            default: itipoMensaje = "[Info.]";
+                    break;
+        }
         try {
             
             NombreArchivo ilog = new NombreArchivo();
             logfile = ilog.nombreFechaHora();
+            ifh = ilog.regFechaHora();
 
-            NombreArchivo fh = new NombreArchivo();
-            ifh = fh.regFechaHora();
-            
             //Specify the file name and path here
             File file =new File("./" + logfile);
 
@@ -42,7 +52,8 @@ public class CrearArchivo {
             FileWriter fw = new FileWriter(file,true);
             //BufferedWriter writer give better performance
             BufferedWriter bw = new BufferedWriter(fw);
-            bw.write("[Info]" + ifh + " - Prueba de funcionamiento\n");
+            //bw.write("[Info]" + ifh + " - Prueba de funcionamiento\n");
+            bw.write(itipoMensaje + ifh + " - " + imensaje + "\n");
             //Closing BufferedWriter Stream
             bw.close();
 

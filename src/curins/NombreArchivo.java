@@ -32,7 +32,7 @@ public class NombreArchivo {
     public String regFechaHora() {
         String ifh = null;
         try {
-            SimpleDateFormat MiFormato = new SimpleDateFormat("-[yyyyMMdd-HHmmss]", Locale.getDefault()); 
+            SimpleDateFormat MiFormato = new SimpleDateFormat("-[HHmmss]", Locale.getDefault()); 
             Date fh= new Date();
             ifh = MiFormato.format(fh);
         } catch(Exception e){

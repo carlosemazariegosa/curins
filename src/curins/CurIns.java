@@ -1,12 +1,12 @@
 package curins;
 
-import java.sql.Date;
-
 /**
  *
  * @author cema
  */
 public class CurIns {
+
+    
 
     public static void main(String[] args) {
         Boolean icon, iarch;
@@ -21,16 +21,6 @@ public class CurIns {
         icon = myc.conectar();
         System.out.println(myc.select());
         myc.desconectar();  
-        
-        //NombreArchivo ilog = new NombreArchivo();
-        //logfile = ilog.nombreFechaHora();
-        //System.out.println("Archivo main:  " + logfile);
-        
-        CrearArchivo ilog = new CrearArchivo();
-        iarch = ilog.creaArchivo();
-
     }
-
-    
     
 }
