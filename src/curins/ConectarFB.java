@@ -172,7 +172,7 @@ public class ConectarFB {
             CrearArchivo ilog = new CrearArchivo();
             statement = connection.createStatement();
             resultSet = statement.executeQuery(""
-                    + "Select first 5 semes_ano, codcarr, codcur, seccion, nombre "
+                    + "Select semes_ano, codcarr, codcur, seccion, nombre "
                     + "FROM acad_cursos_det "
                     + "where semes_ano = '12018'");
 
