@@ -1,29 +1,18 @@
-[Info.]-[154225] - Conexion exitosa a FB - db_jee2
-[Info.]-[154225] - Consulta cursos de sistema Acad
-[Info.]-[154225] - Conexion exitosa a MySQL - inscripciones_alumnos
-[Info.]-[154225] - Total de cursos encontrados:    4
-[Info.]-[154225] - Total de cursos no encontrados: 1
-[Info.]-[154225] - Consulta cursos de sistema MySQL
-[Info.]-[154225] - Desconexion exitosa a FB - db_jee2
-[Info.]-[154225] - Desconexion exitosa a MySQL - inscripciones_alumnos
-[Info.]-[154225] - Proceso realizado EXITOSAMENTE
-[Info.]-[154508] - INICIO
-[Info.]-[154508] - Conexion exitosa a FB - db_jee2
-[Info.]-[154508] - Consulta cursos de sistema Acad
-[Info.]-[154508] - Conexion exitosa a MySQL - inscripciones_alumnos
-[Info.]-[154508] - Total de cursos encontrados:    4
-[Info.]-[154508] - Total de cursos no encontrados: 1
-[Info.]-[154508] - Consulta cursos de sistema MySQL
-[Info.]-[154508] - Desconexion exitosa a FB - db_jee2
-[Info.]-[154508] - Desconexion exitosa a MySQL - inscripciones_alumnos
-[Info.]-[154508] - Proceso realizado EXITOSAMENTE
-[Info.]-[154508] - FIN
-[Info.]-[154915] - INICIO
-[Info.]-[154915] - Conexion exitosa a FB - db_jee2
-[Info.]-[154915] - Conexion exitosa a MySQL - inscripciones_alumnos
-[Info.]-[154915] - Total de cursos encontrados:    4
-[Info.]-[154915] - Total de cursos no encontrados: 1
-[Info.]-[154915] - Desconexion exitosa a FB - db_jee2
-[Info.]-[154915] - Desconexion exitosa a MySQL - inscripciones_alumnos
-[Info.]-[154915] - Proceso realizado EXITOSAMENTE
-[Info.]-[154915] - FIN
+[Info.]-[170028] - INICIO
+[Info.]-[170028] - Conexion exitosa a FB - db_jee2
+[Info.]-[170028] - Conexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[170028] - Total de cursos encontrados:    3
+[Info.]-[170028] - Total de cursos no encontrados: 2
+[Info.]-[170028] - Desconexion exitosa a FB - db_jee2
+[Info.]-[170028] - Desconexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[170028] - Proceso realizado EXITOSAMENTE
+[Info.]-[170028] - FIN
+[Info.]-[170221] - INICIO
+[Info.]-[170221] - Conexion exitosa a FB - db_jee2
+[Info.]-[170222] - Conexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[170222] - Total de cursos encontrados:    2
+[Info.]-[170222] - Total de cursos no encontrados: 3
+[Info.]-[170222] - Desconexion exitosa a FB - db_jee2
+[Info.]-[170222] - Desconexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[170222] - Proceso realizado EXITOSAMENTE
+[Info.]-[170222] - FIN

@@ -40,4 +40,16 @@ public class NombreArchivo {
        }
        return ifh;
     }
+    
+     public String currentFechaHora() {
+        String ifh = null;
+        try {
+            SimpleDateFormat MiFormato = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault()); 
+            Date fh= new Date();
+            ifh = MiFormato.format(fh);
+        } catch(Exception e){
+          System.out.println(e);
+       }
+       return ifh;
+    }
 }

@@ -161,8 +161,12 @@ public class ConectarFB {
     public String migracion() {
         Integer itotal = 0;
         Integer itotno = 0;
+        String currentdia;
         Boolean iarch, icontrol, ienc;
-
+        
+        NombreArchivo icurdia = new NombreArchivo();
+        currentdia = icurdia.currentFechaHora();
+        
         try {
 
             CrearArchivo ilog = new CrearArchivo();
@@ -191,7 +195,26 @@ public class ConectarFB {
                        resultSetmy.getString("seccion"));
                     
                     itotal++;
+                    
                 } else {
+                    String q=" INSERT INTO cursos_det " +
+                                     "(semes_anio,cod_carr,cod_curso,seccion,nombre,fechasys)" +
+                                     "VALUES ( " + "'" + resultSet.getString("semes_ano") + "'" + "," +
+                                                 "'" + resultSet.getString("codcarr") + "'"  + "," + 
+                                                 "'" + resultSet.getString("codcur") + "'" + "," +
+                                                 "'" + resultSet.getString("seccion") + "'" + "," +
+                                                 "'" + resultSet.getString("nombre") + "'" + "," +
+                                                 "'" + currentdia + "'" + ")";
+                                                 
+                    try {
+                        PreparedStatement pstm = connectionmy.prepareStatement(q);
+                        pstm.execute();
+                        pstm.close();
+                    }catch(Exception e){
+                        System.out.println(e);
+                        System.out.println("Fallo el Insert ...");
+                    }                    
+                    
                     System.out.println("Registro no encontrado: " + resultSet.getString("semes_ano") + "-" +
                        resultSet.getString("codcarr") + "-" +
                        resultSet.getString("codcur") + "-" +
