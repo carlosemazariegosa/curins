@@ -47,6 +47,7 @@ public class ConectarFB {
             System.out.println(e);
             CrearArchivo ilog = new CrearArchivo();
             iarch = ilog.creaArchivo(3, "Fallo conexión a FB - " + this.db);
+            iarch = ilog.creaArchivo(3, e.getMessage());
         }
         return true;
     }
@@ -85,7 +86,11 @@ public class ConectarFB {
         } catch (SQLException ex) {
             System.out.println(ex);
             CrearArchivo ilog = new CrearArchivo();
-            iarch = ilog.creaArchivo(3, "Fallo Desconexion a FB - " + this.db);
+            iarch = ilog.creaArchivo(3, "Fallo Desconexion a FB - " + this.db + " - " + ex.getMessage());
+        } catch (Exception ex1) {
+            System.out.println(ex1);
+            CrearArchivo ilog = new CrearArchivo();
+            iarch = ilog.creaArchivo(3, "Fallo Desconexion a FB - " + this.db + " - " + ex1.getMessage());
         }
     }
 
@@ -108,6 +113,7 @@ public class ConectarFB {
             System.out.println(e);
             CrearArchivo ilog = new CrearArchivo();
             iarch = ilog.creaArchivo(3, "Fallo conexión a MySQL - " + this.dbmy);
+            iarch = ilog.creaArchivo(3, e.getMessage());
 
         }
         return true;
@@ -152,6 +158,10 @@ public class ConectarFB {
             System.out.println(ex);
             CrearArchivo ilog = new CrearArchivo();
             iarch = ilog.creaArchivo(3, "Fallo Desconexion a MySQL - " + this.dbmy);
+        } catch (Exception ex1) {
+            System.out.println(ex1);
+            CrearArchivo ilog = new CrearArchivo();
+            iarch = ilog.creaArchivo(3, "Fallo Desconexion a MySQL - " + this.db + " - " + ex1.getMessage());
         }
     }
 
@@ -189,10 +199,10 @@ public class ConectarFB {
                 ienc = resultSetmy.next();
 
                 if (ienc) {
-                    System.out.println("Registro encontrado:    " + resultSetmy.getString("semes_anio") + "-" +
-                       resultSetmy.getString("cod_carr") + "-" +
-                       resultSetmy.getString("cod_curso") + "-" +
-                       resultSetmy.getString("seccion"));
+                    //System.out.println("Registro encontrado:    " + resultSetmy.getString("semes_anio") + "-" +
+                    //   resultSetmy.getString("cod_carr") + "-" +
+                    //   resultSetmy.getString("cod_curso") + "-" +
+                    //   resultSetmy.getString("seccion"));
                     
                     itotal++;
                     
@@ -215,10 +225,10 @@ public class ConectarFB {
                         System.out.println("Fallo el Insert ...");
                     }                    
                     
-                    System.out.println("Registro no encontrado: " + resultSet.getString("semes_ano") + "-" +
-                       resultSet.getString("codcarr") + "-" +
-                       resultSet.getString("codcur") + "-" +
-                       resultSet.getString("seccion"));
+                    //System.out.println("Registro no encontrado: " + resultSet.getString("semes_ano") + "-" +
+                    //   resultSet.getString("codcarr") + "-" +
+                    //   resultSet.getString("codcur") + "-" +
+                    //   resultSet.getString("seccion"));
 
                     itotno++;
                 }
@@ -230,7 +240,14 @@ public class ConectarFB {
         } catch (SQLException ex) {
             System.out.println(ex);
             CrearArchivo ilog = new CrearArchivo();
-            iarch = ilog.creaArchivo(3, "Fallo consulta a tabla de cursos MySql");
+            iarch = ilog.creaArchivo(3, "Fallo consulta a tabla ");
+            iarch = ilog.creaArchivo(3, ex.getMessage());
+
+        } catch (Exception eq) {
+            System.out.println(eq);
+            CrearArchivo ilog = new CrearArchivo();
+            iarch = ilog.creaArchivo(3, "Fallo consulta a tabla ");
+            iarch = ilog.creaArchivo(3, eq.getMessage());
         }
 
         return "Fin Migracion";

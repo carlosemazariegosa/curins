@@ -1,0 +1,181 @@
+[Info.]-[110411] - INICIO
+[Info.]-[110411] - Conexion exitosa a FB - db_jee2
+[Info.]-[110411] - Conexion exitosa a MySQL - inscripciones_alumnos
+[Error]-[110411] - Fallo consulta a tabla de cursos MySql
+[Error]-[110411] - GDS Exception. 335544569. Dynamic SQL Error
+SQL error code = -204
+Table unknown
+ACAD_CURSOS_DETT
+At line 1, column 74
+[Info.]-[111105] - INICIO
+[Info.]-[111105] - Conexion exitosa a FB - db_jee2
+[Info.]-[111105] - Conexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[111110] - Total de cursos encontrados:    16987
+[Info.]-[111110] - Total de cursos no encontrados: 0
+[Info.]-[111110] - Desconexion exitosa a FB - db_jee2
+[Info.]-[111110] - Desconexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[111110] - Proceso realizado EXITOSAMENTE
+[Info.]-[111110] - FIN
+[Info.]-[111206] - INICIO
+[Info.]-[111206] - Conexion exitosa a FB - db_jee2
+[Info.]-[111206] - Conexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[111211] - Total de cursos encontrados:    16987
+[Info.]-[111211] - Total de cursos no encontrados: 0
+[Info.]-[111211] - Desconexion exitosa a FB - db_jee2
+[Info.]-[111211] - Desconexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[111211] - Proceso realizado EXITOSAMENTE
+[Info.]-[111211] - FIN
+[Info.]-[111256] - INICIO
+[Info.]-[111256] - Conexion exitosa a FB - db_jee2
+[Info.]-[111256] - Conexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[111259] - Total de cursos encontrados:    16987
+[Info.]-[111259] - Total de cursos no encontrados: 0
+[Info.]-[111259] - Desconexion exitosa a FB - db_jee2
+[Info.]-[111259] - Desconexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[111259] - Proceso realizado EXITOSAMENTE
+[Info.]-[111259] - FIN
+[Info.]-[112650] - INICIO
+[Info.]-[112650] - Conexion exitosa a FB - db_jee2
+[Info.]-[112650] - Conexion exitosa a MySQL - inscripciones_alumnos
+[Error]-[112650] - Fallo consulta a tabla de cursos MySql
+[Error]-[112650] - GDS Exception. 335544569. Dynamic SQL Error
+SQL error code = -204
+Table unknown
+ACAD_CURSOS_DETT
+At line 1, column 74
+[Info.]-[112733] - INICIO
+[Info.]-[112733] - Conexion exitosa a FB - db_jee2
+[Info.]-[112733] - Conexion exitosa a MySQL - inscripciones_alumnos
+[Error]-[112733] - Fallo consulta a tabla de cursos MySql
+[Error]-[112733] - GDS Exception. 335544569. Dynamic SQL Error
+SQL error code = -204
+Table unknown
+ACAD_CURSOS_DETT
+At line 1, column 74
+[Info.]-[113314] - INICIO
+[Info.]-[113315] - Conexion exitosa a FB - db_jee2
+[Info.]-[113315] - Conexion exitosa a MySQL - inscripciones_alumnos
+[Error]-[113315] - Fallo consulta a tabla de cursos MySql
+[Error]-[113315] - GDS Exception. 335544569. Dynamic SQL Error
+SQL error code = -204
+Table unknown
+ACAD_CURSOS_DETT
+At line 1, column 74
+[Error]-[113315] - Fallo Desconexion a FB - db_jee2 - null
+[Info.]-[113423] - INICIO
+[Info.]-[113423] - Conexion exitosa a FB - db_jee2
+[Info.]-[113423] - Conexion exitosa a MySQL - inscripciones_alumnos
+[Error]-[113423] - Fallo consulta a tabla de cursos MySql
+[Error]-[113423] - GDS Exception. 335544569. Dynamic SQL Error
+SQL error code = -204
+Table unknown
+ACAD_CURSOS_DETT
+At line 1, column 74
+[Error]-[113423] - Fallo Desconexion a FBxx - db_jee2 - null
+[Info.]-[113551] - INICIO
+[Info.]-[113551] - Conexion exitosa a FB - db_jee2
+[Info.]-[113552] - Conexion exitosa a MySQL - inscripciones_alumnos
+[Error]-[113552] - Fallo consulta a tabla de cursos MySql
+[Error]-[113552] - GDS Exception. 335544569. Dynamic SQL Error
+SQL error code = -204
+Table unknown
+ACAD_CURSOS_DETT
+At line 1, column 74
+[Error]-[113552] - Fallo Desconexion a FBxx - db_jee2 - null
+[Error]-[113552] - Fallo Desconexion a MySQL - db_jee2 - null
+[Info.]-[113552] - Proceso realizado EXITOSAMENTE
+[Info.]-[113552] - FIN
+[Info.]-[114332] - INICIO
+[Info.]-[114332] - Conexion exitosa a FB - db_jee2
+[Info.]-[114332] - Conexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[114335] - Total de cursos encontrados:    16987
+[Info.]-[114335] - Total de cursos no encontrados: 0
+[Info.]-[114335] - Desconexion exitosa a FB - db_jee2
+[Info.]-[114335] - Desconexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[114335] - Proceso realizado EXITOSAMENTE
+[Info.]-[114335] - FIN
+[Info.]-[120041] - INICIO
+[Info.]-[120041] - Conexion exitosa a FB - db_jee2
+[Info.]-[120041] - Conexion exitosa a MySQL - inscripciones_alumnos
+[Error]-[120042] - Fallo consulta a tabla de cursos MySql
+[Error]-[120042] - Table 'inscripciones_alumnos.cursos_dett' doesn't exist
+[Info.]-[120042] - Desconexion exitosa a FB - db_jee2
+[Error]-[120042] - Fallo Desconexion a MySQL - db_jee2 - null
+[Info.]-[120042] - Proceso realizado EXITOSAMENTE
+[Info.]-[120042] - FIN
+[Info.]-[122107] - INICIO
+[Error]-[122128] - Fallo conexión a FB - db_jee2
+[Info.]-[122128] - Conexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[122320] - INICIO
+[Error]-[122341] - Fallo conexión a FB - db_jee2
+[Error]-[122341] - GDS Exception. 335544721. Unable to complete network request to host "10.1.4.15".
+Reason: Unable to complete network request to host "10.1.4.15".
+[Info.]-[122341] - Conexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[123431] - INICIO
+[Error]-[123452] - Fallo conexión a FB - db_jee2
+[Error]-[123452] - GDS Exception. 335544721. Unable to complete network request to host "10.1.4.15".
+Reason: Unable to complete network request to host "10.1.4.15".
+[Info.]-[123452] - Conexion exitosa a MySQL - inscripciones_alumnos
+[Error]-[123452] - Fallo consulta a tabla 
+[Error]-[123452] - null
+[Error]-[123452] - Fallo Desconexion a FBxx - db_jee2 - null
+[Error]-[123452] - Fallo Desconexion a MySQL - db_jee2 - null
+[Info.]-[123452] - Proceso realizado EXITOSAMENTE
+[Info.]-[123452] - FIN
+[Info.]-[143759] - INICIO
+[Info.]-[143759] - Conexion exitosa a FB - db_jee2
+[Info.]-[143800] - Conexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[143803] - Total de cursos encontrados:    16987
+[Info.]-[143803] - Total de cursos no encontrados: 0
+[Info.]-[143803] - Desconexion exitosa a FB - db_jee2
+[Info.]-[143803] - Desconexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[143803] - Proceso realizado EXITOSAMENTE
+[Info.]-[143803] - FIN
+[Info.]-[143942] - INICIO
+[Info.]-[143942] - Conexion exitosa a FB - db_jee2
+[Info.]-[143942] - Conexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[143945] - Total de cursos encontrados:    16987
+[Info.]-[143945] - Total de cursos no encontrados: 0
+[Info.]-[143945] - Desconexion exitosa a FB - db_jee2
+[Info.]-[143945] - Desconexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[143945] - Proceso realizado EXITOSAMENTE
+[Info.]-[143945] - FIN
+[Info.]-[144032] - INICIO
+[Error]-[144032] - Fallo conexión a FB - db_jee2
+[Error]-[144032] - GDS Exception. 335544472. Your user name and password are not defined. Ask your database administrator to set up a Firebird login.
+Reason: Your user name and password are not defined. Ask your database administrator to set up a Firebird login.
+[Info.]-[144032] - Conexion exitosa a MySQL - inscripciones_alumnos
+[Error]-[144032] - Fallo consulta a tabla 
+[Error]-[144032] - null
+[Error]-[144032] - Fallo Desconexion a FB - db_jee2 - null
+[Error]-[144032] - Fallo Desconexion a MySQL - db_jee2 - null
+[Info.]-[144032] - Proceso realizado EXITOSAMENTE
+[Info.]-[144032] - FIN
+[Info.]-[144140] - INICIO
+[Info.]-[144140] - Conexion exitosa a FB - db_jee2
+[Error]-[144140] - Fallo conexión a MySQL - inscripciones_alumnos
+[Error]-[144140] - Access denied for user 'roott'@'localhost' (using password: NO)
+[Error]-[144140] - Fallo consulta a tabla 
+[Error]-[144140] - null
+[Info.]-[144140] - Desconexion exitosa a FB - db_jee2
+[Error]-[144140] - Fallo Desconexion a MySQL - db_jee2 - null
+[Info.]-[144140] - Proceso realizado EXITOSAMENTE
+[Info.]-[144140] - FIN
+[Info.]-[144223] - INICIO
+[Info.]-[144224] - Conexion exitosa a FB - db_jee2
+[Info.]-[144224] - Conexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[144227] - Total de cursos encontrados:    16987
+[Info.]-[144227] - Total de cursos no encontrados: 0
+[Info.]-[144227] - Desconexion exitosa a FB - db_jee2
+[Info.]-[144227] - Desconexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[144227] - Proceso realizado EXITOSAMENTE
+[Info.]-[144227] - FIN
+[Info.]-[151935] - INICIO
+[Info.]-[151935] - Conexion exitosa a FB - db_jee2
+[Info.]-[151936] - Conexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[151939] - Total de cursos encontrados:    16987
+[Info.]-[151939] - Total de cursos no encontrados: 0
+[Info.]-[151939] - Desconexion exitosa a FB - db_jee2
+[Info.]-[151939] - Desconexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[151939] - Proceso realizado EXITOSAMENTE
+[Info.]-[151939] - FIN
