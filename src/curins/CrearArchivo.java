@@ -39,7 +39,7 @@ public class CrearArchivo {
             ifh = ilog.regFechaHora();
 
             //Specify the file name and path here
-            File file =new File("./" + logfile);
+            File file = new File("./" + logfile);
 
             /* This logic is to create the file if the
              * file is not already present

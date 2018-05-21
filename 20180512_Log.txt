@@ -1,4 +1,0 @@
-[Info]-[20180512-115115] - Prueba de funcionamiento
-[Info]-[20180512-115117] - Prueba de funcionamiento
-[Info]-[20180512-115118] - Prueba de funcionamiento
-[Info]-[20180512-115119] - Prueba de funcionamiento

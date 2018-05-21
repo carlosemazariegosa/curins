@@ -1,0 +1,12 @@
+[Info.]-[124826] - INICIO
+[Info.]-[124826] - Conexion exitosa a FB - db_jee2
+[Info.]-[124826] - Conexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[124829] - Total de cursos encontrados:    16987
+[Info.]-[124829] - Total de cursos no encontrados: 0
+[Info.]-[124829] - Desconexion exitosa a FB - db_jee2
+[Info.]-[124829] - Desconexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[124829] - Proceso realizado EXITOSAMENTE [1]
+[Info.]-[124829] - FIN
+[Info.]-[124926] - Aqui revisara si tiene que terminar el programa
+[Info.]-[125026] - Aqui revisara si tiene que terminar el programa
+[Info.]-[125126] - TERMINADO - Por el administrador
