@@ -37,7 +37,6 @@ public class CurIns {
 
         Timer timer;
         timer = new Timer();
-        
         CrearArchivo ilog = new CrearArchivo();
 
         TimerTask task = new TimerTask() {
@@ -47,6 +46,7 @@ public class CurIns {
             Boolean primerCiclo = true;
             @Override
             public void run() {
+                
                 Boolean iok, iarch, isalir;
                 if (ictrlSalir >= 6 || primerCiclo) {
                     CrearArchivo ilog = new CrearArchivo();
@@ -64,13 +64,14 @@ public class CurIns {
                         iarch = ilog.creaArchivo(1,"TERMINADO - Por el administrador");
                         System.exit(0);
                     }
-                    iarch = ilog.creaArchivo(1,"Aqui revisara si tiene que terminar el programa");
+                    iarch = ilog.creaArchivo(1,"");
                     System.out.println("Control Salir: " + ictrlSalir);
                 }
                 ictrlSalir++;
+                
             }
         };
-        timer.schedule(task, 1, 60000);
+        timer.schedule(task, 10, 60000);
     }           
     
 }
