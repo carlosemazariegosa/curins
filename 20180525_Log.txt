@@ -1,0 +1,35 @@
+[Info.]-[170917] - INICIO
+[Info.]-[170917] - Conexion exitosa a FB - db_jee2
+[Info.]-[170918] - Conexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[170922] - Total de cursos encontrados:    16987
+[Info.]-[170922] - Total de cursos no encontrados: 0
+[Info.]-[170922] - Desconexion exitosa a FB - db_jee2
+[Info.]-[170922] - Desconexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[170922] - Proceso realizado EXITOSAMENTE [1]
+[Info.]-[170922] - FIN
+[Info.]-[171017] - 
+[Info.]-[171117] - 
+[Info.]-[171217] - 
+[Info.]-[171317] - 
+[Info.]-[171417] - 
+[Info.]-[171517] - INICIO
+[Info.]-[171517] - Conexion exitosa a FB - db_jee2
+[Info.]-[171517] - Conexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[171520] - Total de cursos encontrados:    16987
+[Info.]-[171520] - Total de cursos no encontrados: 0
+[Info.]-[171520] - Desconexion exitosa a FB - db_jee2
+[Info.]-[171520] - Desconexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[171520] - Proceso realizado EXITOSAMENTE [2]
+[Info.]-[171520] - FIN
+[Info.]-[171617] - 
+[Info.]-[171856] - INICIO - Con ciclos:('12018','22018','32018')
+[Info.]-[171856] - Conexion exitosa a FB - db_jee2
+[Info.]-[171856] - Conexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[171900] - Total de cursos encontrados:    16987
+[Info.]-[171900] - Total de cursos no encontrados: 0
+[Info.]-[171900] - Desconexion exitosa a FB - db_jee2
+[Info.]-[171900] - Desconexion exitosa a MySQL - inscripciones_alumnos
+[Info.]-[171900] - Proceso realizado EXITOSAMENTE [1]
+[Info.]-[171900] - FIN
+[Info.]-[171956] - 
+[Info.]-[172056] - TERMINADO - Por el administrador

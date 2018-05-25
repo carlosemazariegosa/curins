@@ -168,15 +168,15 @@ public class ConectarFB {
     //
     // Procesos
     //
-    public String migracion() {
+    public String migracion(String icmd) {
         Integer itotal = 0;
         Integer itotno = 0;
-        String currentdia;
+        String currentdia, currentCiclo="('12018')";
         Boolean iarch, icontrol, ienc;
         
         NombreArchivo icurdia = new NombreArchivo();
         currentdia = icurdia.currentFechaHora();
-        
+        System.out.println("icmd: "+ icmd);
         try {
 
             CrearArchivo ilog = new CrearArchivo();
@@ -184,7 +184,8 @@ public class ConectarFB {
             resultSet = statement.executeQuery(""
                     + "Select semes_ano, codcarr, codcur, seccion, nombre "
                     + "FROM acad_cursos_det "
-                    + "where semes_ano = '12018'");
+                    + "where semes_ano IN " + icmd);
+                    //+ "where semes_ano = '12018'");
 
             while (resultSet.next()) {
                 statementmy = connectionmy.createStatement();

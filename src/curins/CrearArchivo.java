@@ -14,6 +14,8 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.BufferedWriter;
 import java.io.IOException;
+import java.io.BufferedReader;
+import java.io.FileReader;
 
 public class CrearArchivo {
     
@@ -63,4 +65,39 @@ public class CrearArchivo {
         }
         return true;
     }
+    
+    public String leerArchivo() {
+        String icomando="";
+        
+        String FILENAME = "./CICLOS";
+        BufferedReader br = null;
+        FileReader fr = null;
+
+        try {
+                //br = new BufferedReader(new FileReader(FILENAME));
+                fr = new FileReader(FILENAME);
+                br = new BufferedReader(fr);
+                String sCurrentLine;
+                while ((sCurrentLine = br.readLine()) != null) {
+                        if (sCurrentLine.isEmpty()) {
+                            System.out.println("");
+                        } else {
+                            icomando = sCurrentLine;
+                        }
+                }
+        } catch (IOException e) {
+                e.printStackTrace();
+        } finally {
+                try {
+                        if (br != null)
+                                br.close();
+                        if (fr != null)
+                                fr.close();
+                } catch (IOException ex) {
+                        ex.printStackTrace();
+                }
+        }
+        return icomando;
+    }
+
 }
